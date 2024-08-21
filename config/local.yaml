@@ -1,0 +1,10 @@
+env: "local" #local, dev, prod
+storage:
+  user: "postgres"
+  password: "12345"
+  dbname: "ume"
+  ssl: "false"
+token_ttl: 1h
+grpc:
+  port: 8003
+  timeout: 10h
